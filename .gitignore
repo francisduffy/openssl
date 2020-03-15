@@ -183,3 +183,8 @@ pod2htmd.tmp
 # Windows manifest files
 *.manifest
 doc-nits
+
+# Build direc
+debug_build
+release_build
+stage

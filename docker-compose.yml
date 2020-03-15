@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  openssl:
+    image: openssl:1.1.1d
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - zlib_version=1.2.11
+        - num_cores=4
