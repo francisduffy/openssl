@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  openssl:
+    image: openssl_debug:1.1.1d
+    build:
+      context: .
+      dockerfile: Dockerfile-Debug
+      args:
+        - zlib_version=1.2.11
+        - num_cores=1
