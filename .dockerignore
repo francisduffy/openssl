@@ -3,3 +3,45 @@ debug_build
 demos
 release_build
 stage
+
+# Visual Studio user-specific files
+**/*.suo
+**/*.user
+**/*.sln.docstates
+
+# Visual Studio build results
+**/*_i.c
+**/*_p.c
+**/*.ilk
+**/*.meta
+**/*.obj
+**/*.pch
+**/*.pdb
+**/*.pgc
+**/*.pgd
+**/*.rsp
+**/*.sbr
+**/*.tlb
+**/*.tli
+**/*.tlh
+**/*.tmp
+**/*.log
+**/*.vspscc
+**/*.vssscc
+**/*.dll
+**/*.lib
+
+# Visual C++ cache files
+ipch/
+**/*.aps
+**/*.ncb
+**/*.opensdf
+**/*.sdf
+
+# *nix build results
+**/*.a
+**/*.la
+**/*.o
+**/*.lo
+**/*.so
+**/*.so.*
